@@ -5,15 +5,12 @@ import os
 root = Tk()
 root.title("Student Form")
 
-# Window settings
 root.geometry("500x500")
 root.configure(bg="#FF2504")
 
-# Icon
 if os.path.exists("pixel2.ico"):
     root.iconbitmap("pixel2.ico")
 
-# -------- IMAGE --------
 try:
     image = Image.open("star.png")     # make sure star.png is in same folder
     image = image.resize((120, 80))    # resize image
