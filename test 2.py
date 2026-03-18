@@ -25,7 +25,6 @@ try:
 except:
     print("Image not found")
 
-# -------- TITLE --------
 title = Label(root,
               text="Giet Bucks",
               font=("Arial", 20, "bold"),
@@ -33,7 +32,6 @@ title = Label(root,
               fg="white")
 title.pack(pady=10)
 
-# -------- EMAIL --------
 email_label = Label(root,
                     text="Email",
                     font=("Arial", 14, "bold"),
@@ -44,7 +42,6 @@ email_label.pack(pady=(20,5))
 email_entry = Entry(root, font=("Arial", 14))
 email_entry.pack()
 
-# -------- PASSWORD --------
 password_label = Label(root,
                        text="Password",
                        font=("Arial", 14, "bold"),
@@ -55,7 +52,6 @@ password_label.pack(pady=(20,5))
 password_entry = Entry(root, font=("Arial", 14), show="*")
 password_entry.pack()
 
-# -------- BUTTON --------
 login_btn = Button(root,
                    text="Login",
                    font=("Arial", 14, "bold"),
